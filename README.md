@@ -1,9 +1,8 @@
 # Scene Management
 
 * Loads new Scenes using Screen Faders and Loading Scenes.
-* Unity minimum version: **6000.1**
-* Current version: **7.0.0**
-* License: **MIT**
+* Unity minimum version: **6000.3**
+* Current version: **8.0.0**
 
 ## Summary
 
@@ -38,11 +37,11 @@ You can also use the [DefaultSceneTransition](/Transitions/DefaultSceneTransitio
 
 ### Using Screen Faders
 
-Screen Fade uses the [Screen Fade System](https://github.com/HyagoOliveira/ScreenFadeSystem) package.
+Screen Fade uses the [Screen Fade System](https://github.com/1mbitshorde/ScreenFadeSystem) package.
 
-SceneTransition assets have an attribute for a **Screen Fader Prefab**. This prefab must have a component implementing the [AbstractScreenFader](https://github.com/HyagoOliveira/ScreenFadeSystem/blob/main/Runtime/AbstractScreenFader.cs) component.
+SceneTransition assets have an attribute for a **Screen Fader Prefab**. This prefab must have a component implementing the [AbstractScreenFader](https://github.com/1mbitshorde/ScreenFadeSystem/blob/main/Runtime/AbstractScreenFader.cs) component.
 
-You can use one provided by the package or create your own. Use the [package documentation](https://github.com/HyagoOliveira/ScreenFadeSystem?tab=readme-ov-file#how-to-use) to know how.
+You can use one provided by the package or create your own. Use the [package documentation](https://github.com/1mbitshorde/ScreenFadeSystem?tab=readme-ov-file#how-to-use) to know how.
 
 ### Loading new Scenes by Code
 
@@ -50,7 +49,7 @@ You just need to use any of the loading function provided by the static class [S
 
 ```csharp
 using UnityEngine;
-using ActionCode.SceneManagement;
+using OneM.SceneManagement;
 
 public sealed class LoadingTest : MonoBehaviour
 {
@@ -101,7 +100,7 @@ First, create a GameLoader implementing the `AbstractLoader` component:
 ```csharp
 using UnityEngine;
 using System.Threading.Tasks;
-using ActionCode.SceneManagement;
+using OneM.SceneManagement;
 using Unity.AI.Navigation; // Make sure you have the Unity.AI.Navigation package installed
 using UnityEngine.AddressableAssets; // Make sure you have the Unity.Addressables package installed
 
@@ -136,19 +135,19 @@ A [SceneTransitionBuilder](/Editor/Build/SceneTransitionBuilder.cs) *Pre Build P
 
 ### Using the Package Registry Server
 
-Follow the instructions inside [here](https://cutt.ly/ukvj1c8) and the package **ActionCode-Scene Management** 
+Follow the instructions inside [here](https://cutt.ly/ukvj1c8) and the package **1M Bits Horde-Scene Management** 
 will be available for you to install using the **Package Manager** windows.
 
 ### Using the Git URL
 
 You will need a **Git client** installed on your computer with the Path variable already set. 
 
-- Use the **Package Manager** "Add package from git URL..." feature and paste this URL: `https://github.com/HyagoOliveira/SceneManagement.git`
+- Use the **Package Manager** "Add package from git URL..." feature and paste this URL: `https://github.com/1mbitshorde/SceneManagement.git`
 
 - You can also manually modify you `Packages/manifest.json` file and add this line inside `dependencies` attribute: 
 
 ```json
-"com.actioncode.scene-management":"https://github.com/HyagoOliveira/SceneManagement.git"
+"com.1mbitshorde.scene-management":"https://github.com/1mbitshorde/SceneManagement.git"
 ```
 ---
 

@@ -1,6 +1,6 @@
 {
-    "name": "ActionCode.SceneManagement.Editor",
-    "rootNamespace": "ActionCode.SceneManagement.Editor",
+    "name": "OneM.SceneManagement.Editor",
+    "rootNamespace": "OneM.SceneManagement.Editor",
     "references": [
         "GUID:f4dfeeb945ec1e4469e4acb166baa9b8"
     ],

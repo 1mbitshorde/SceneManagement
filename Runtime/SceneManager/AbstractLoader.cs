@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ActionCode.SceneManagement
+namespace OneM.SceneManagement
 {
     /// <summary>
     /// Abstract loader for scene.

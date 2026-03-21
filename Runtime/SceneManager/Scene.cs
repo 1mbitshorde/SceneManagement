@@ -1,6 +1,6 @@
 using System;
 
-namespace ActionCode.SceneManagement
+namespace OneM.SceneManagement
 {
     /// <summary>
     /// Data for Scene.

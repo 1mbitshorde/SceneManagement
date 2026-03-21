@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-namespace ActionCode.SceneManagement
+namespace OneM.SceneManagement
 {
     /// <summary>
     /// This component was build to quickly load new Scenes. You may use it in Button actions.

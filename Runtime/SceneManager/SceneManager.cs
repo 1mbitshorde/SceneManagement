@@ -1,10 +1,10 @@
 using System;
 using UnityEngine;
-using ActionCode.AwaitableSystem;
+using OneM.AwaitableSystem;
 using SceneMode = UnityEngine.SceneManagement.LoadSceneMode;
 using UnitySceneManager = UnityEngine.SceneManagement.SceneManager;
 
-namespace ActionCode.SceneManagement
+namespace OneM.SceneManagement
 {
     /// <summary>
     /// The Scene Manager. 

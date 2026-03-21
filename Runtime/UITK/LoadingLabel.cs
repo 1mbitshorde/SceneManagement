@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace ActionCode.SceneManagement
+namespace OneM.SceneManagement
 {
     /// <summary>
     /// Updates a local UI Toolkit <see cref="Label"/> with the current Scene loading progress. 

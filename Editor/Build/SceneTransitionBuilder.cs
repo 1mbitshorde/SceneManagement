@@ -3,7 +3,7 @@ using UnityEditor.Build;
 using UnityEditor.Build.Reporting;
 using UnityEngine.SceneManagement;
 
-namespace ActionCode.SceneManagement.Editor
+namespace OneM.SceneManagement.Editor
 {
     /// <summary>
     /// Checks if the Loading Scene from all <see cref="SceneTransition"/> assets has been added to the Build./>

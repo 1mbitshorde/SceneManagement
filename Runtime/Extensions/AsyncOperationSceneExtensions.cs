@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace ActionCode.SceneManagement
+namespace OneM.SceneManagement
 {
     /// <summary>
     /// Extension Methods for Scenes AsyncOperations.

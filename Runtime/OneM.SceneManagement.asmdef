@@ -1,6 +1,6 @@
 {
-    "name": "ActionCode.SceneManagement",
-    "rootNamespace": "ActionCode.SceneManagement",
+    "name": "OneM.SceneManagement",
+    "rootNamespace": "OneM.SceneManagement",
     "references": [
         "GUID:756f810f17dfec54abc9b3899a63acdf",
         "GUID:2055e4f86e8d13344b9d599457150310",

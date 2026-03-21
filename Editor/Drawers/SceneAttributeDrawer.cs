@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace ActionCode.SceneManagement.Editor
+namespace OneM.SceneManagement.Editor
 {
     /// <summary>
     /// Custom property drawer for <see cref="SceneAttribute"/>.

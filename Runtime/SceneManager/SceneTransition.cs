@@ -1,12 +1,12 @@
 using UnityEngine;
-using ActionCode.ScreenFadeSystem;
+using OneM.ScreenFadeSystem;
 
-namespace ActionCode.SceneManagement
+namespace OneM.SceneManagement
 {
     /// <summary>
     /// Data container used to customize how Scene Transitions should behave.
     /// </summary>
-    [CreateAssetMenu(fileName = "NewSceneTransition", menuName = "ActionCode/SceneManager/Scene Transition", order = 110)]
+    [CreateAssetMenu(fileName = "NewSceneTransition", menuName = "OneM/Scene Management/New Scene Transition")]
     public sealed class SceneTransition : ScriptableObject
     {
         [SerializeField, Min(0F), Tooltip("Time (in seconds) to wait before starts the loading process.")]

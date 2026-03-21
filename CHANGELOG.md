@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [8.0.0] - 2026-03-21
+### Changed
+- Move package into 1M Bits Horde
+
 ## [7.0.0] - 2025-10-01
 ### Changed
 - Increase Unity minimum version to 6.0.1
@@ -147,20 +151,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - README
 - Initial commit
 
-[Unreleased]: https://github.com/HyagoOliveira/SceneManagement/compare/7.0.0...main
-[7.0.0]: https://github.com/HyagoOliveira/SceneManagement/tree/6.0.0/
-[6.0.0]: https://github.com/HyagoOliveira/SceneManagement/tree/6.0.0/
-[5.1.0]: https://github.com/HyagoOliveira/SceneManagement/tree/5.1.0/
-[5.0.0]: https://github.com/HyagoOliveira/SceneManagement/tree/5.0.0/
-[4.3.0]: https://github.com/HyagoOliveira/SceneManagement/tree/4.3.0/
-[4.2.0]: https://github.com/HyagoOliveira/SceneManagement/tree/4.2.0/
-[4.1.0]: https://github.com/HyagoOliveira/SceneManagement/tree/4.1.0/
-[4.0.0]: https://github.com/HyagoOliveira/SceneManagement/tree/4.0.0/
-[3.1.0]: https://github.com/HyagoOliveira/SceneManagement/tree/3.1.0/
-[3.0.0]: https://github.com/HyagoOliveira/SceneManagement/tree/3.0.0/
-[2.1.0]: https://github.com/HyagoOliveira/SceneManagement/tree/2.1.0/
-[2.0.2]: https://github.com/HyagoOliveira/SceneManagement/tree/2.0.2/
-[2.0.1]: https://github.com/HyagoOliveira/SceneManagement/tree/2.0.1/
-[2.0.0]: https://github.com/HyagoOliveira/SceneManagement/tree/2.0.0/
-[1.0.1]: https://github.com/HyagoOliveira/SceneManagement/tree/1.0.1/
-[1.0.0]: https://github.com/HyagoOliveira/SceneManagement/tree/1.0.0/
+[Unreleased]: https://github.com/1mbitshorde/SceneManagement/compare/8.0.0...main
+[8.0.0]: https://github.com/1mbitshorde/SceneManagement/tree/8.0.0/
+[7.0.0]: https://github.com/1mbitshorde/SceneManagement/tree/7.0.0/
+[6.0.0]: https://github.com/1mbitshorde/SceneManagement/tree/6.0.0/
+[5.1.0]: https://github.com/1mbitshorde/SceneManagement/tree/5.1.0/
+[5.0.0]: https://github.com/1mbitshorde/SceneManagement/tree/5.0.0/
+[4.3.0]: https://github.com/1mbitshorde/SceneManagement/tree/4.3.0/
+[4.2.0]: https://github.com/1mbitshorde/SceneManagement/tree/4.2.0/
+[4.1.0]: https://github.com/1mbitshorde/SceneManagement/tree/4.1.0/
+[4.0.0]: https://github.com/1mbitshorde/SceneManagement/tree/4.0.0/
+[3.1.0]: https://github.com/1mbitshorde/SceneManagement/tree/3.1.0/
+[3.0.0]: https://github.com/1mbitshorde/SceneManagement/tree/3.0.0/
+[2.1.0]: https://github.com/1mbitshorde/SceneManagement/tree/2.1.0/
+[2.0.2]: https://github.com/1mbitshorde/SceneManagement/tree/2.0.2/
+[2.0.1]: https://github.com/1mbitshorde/SceneManagement/tree/2.0.1/
+[2.0.0]: https://github.com/1mbitshorde/SceneManagement/tree/2.0.0/
+[1.0.1]: https://github.com/1mbitshorde/SceneManagement/tree/1.0.1/
+[1.0.0]: https://github.com/1mbitshorde/SceneManagement/tree/1.0.0/

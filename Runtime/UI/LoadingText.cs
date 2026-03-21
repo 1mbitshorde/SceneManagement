@@ -12,7 +12,7 @@ using TMPro;
 using UnityEngine.UI;
 #endif
 
-namespace ActionCode.SceneManagement
+namespace OneM.SceneManagement
 {
     /// <summary>
     /// Updates a local Text component with the current loading progress.
