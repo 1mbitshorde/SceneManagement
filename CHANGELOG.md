@@ -5,6 +5,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## [8.1.0] - 2026-09-09
 ### Changed
 - Update Unity 6000.6
 
@@ -153,7 +154,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - README
 - Initial commit
 
-[Unreleased]: https://github.com/1mbitshorde/SceneManagement/compare/8.0.0...main
+[Unreleased]: https://github.com/1mbitshorde/SceneManagement/compare/8.1.0...main
+[8.1.0]: https://github.com/1mbitshorde/SceneManagement/tree/8.1.0/
 [8.0.0]: https://github.com/1mbitshorde/SceneManagement/tree/8.0.0/
 [7.0.0]: https://github.com/1mbitshorde/SceneManagement/tree/7.0.0/
 [6.0.0]: https://github.com/1mbitshorde/SceneManagement/tree/6.0.0/
