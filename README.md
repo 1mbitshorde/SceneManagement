@@ -1,8 +1,7 @@
 # Scene Management
 
 * Loads new Scenes using Screen Faders and Loading Scenes.
-* Unity minimum version: **6000.3**
-* Current version: **8.0.0**
+* Unity minimum version: **6000.6**
 
 ## Summary
 

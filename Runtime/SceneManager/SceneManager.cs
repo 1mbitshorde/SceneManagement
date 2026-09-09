@@ -1,6 +1,6 @@
+using OneM.AwaitableSystem;
 using System;
 using UnityEngine;
-using OneM.AwaitableSystem;
 using SceneMode = UnityEngine.SceneManagement.LoadSceneMode;
 using UnitySceneManager = UnityEngine.SceneManagement.SceneManager;
 
@@ -183,7 +183,7 @@ namespace OneM.SceneManagement
 
         private static async Awaitable WaitForAllLoaders()
         {
-            var loaders = UnityEngine.Object.FindObjectsByType<AbstractLoader>(sortMode: FindObjectsSortMode.InstanceID);
+            var loaders = UnityEngine.Object.FindObjectsByType<AbstractLoader>();
             foreach (var loader in loaders)
             {
                 while (!loader.IsLoaded) await Awaitable.NextFrameAsync();
