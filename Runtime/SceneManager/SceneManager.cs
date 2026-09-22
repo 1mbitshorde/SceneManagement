@@ -18,6 +18,16 @@ namespace OneM.SceneManagement
         public static event Action OnLoadingStarted;
 
         /// <summary>
+        /// Action fired when <see cref="AbstractLoader"/> instances start to load.
+        /// </summary>
+        public static event Action OnLoadersStarted;
+
+        /// <summary>
+        /// Action fired when <see cref="AbstractLoader"/> instances finish to load.
+        /// </summary>
+        public static event Action OnLoadersFinished;
+
+        /// <summary>
         /// Action fired when loading is finished. 
         /// <see cref="LoadingScene"/> will be null.
         /// </summary>
@@ -183,11 +193,15 @@ namespace OneM.SceneManagement
 
         private static async Awaitable WaitForAllLoaders()
         {
+            OnLoadersStarted?.Invoke();
+
             var loaders = UnityEngine.Object.FindObjectsByType<AbstractLoader>();
             foreach (var loader in loaders)
             {
                 while (!loader.IsLoaded) await Awaitable.NextFrameAsync();
             }
+
+            OnLoadersFinished?.Invoke();
         }
 
         private static void ReportProgress(float progress) => OnProgressChanged?.Invoke(progress * 100F);
